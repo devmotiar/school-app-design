@@ -1,0 +1,567 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat'; 
+    overflow-x: hidden;
+}  
+
+/*-----------  header ---------- */
+.header
+{
+    padding:2vw 10vw;
+    display: flex;
+    width: 100%;
+    
+ 
+}
+.header h2
+{
+   
+    font-family: 'Montserrat';
+}
+.header h2 b 
+{
+    color: #F3164D;
+}
+.header span
+{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    margin-right: 20px;
+}
+.textbtn
+{
+    position: absolute;
+    right: 10vw;
+}
+.header button
+{
+    font-family: 'Montserrat'; 
+    background: #F3164D;
+    padding:10px 30px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+/*----------------   cards   ---------------- */
+
+
+.cards
+{
+    width: 100vw;
+    padding:2vw 10vw;
+
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    /* grid-template-rows: minmax(20rem, 3rem); */
+    grid-gap:3rem 4rem;
+} 
+
+
+.cards img
+{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.textData
+{
+    padding: 30px 20px;
+
+    border-radius: 20px;
+    box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);
+-webkit-box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);
+-moz-box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);
+}
+
+.textData
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.headersSec
+{
+    width: 80%;
+}
+.buySec
+{
+    width: 20%;
+}
+
+.buySec button
+{
+    font-family: 'Montserrat'; 
+    background: #F3164D;
+    padding:10px 30px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer; 
+    margin-top: 10px;
+}
+
+.headersSec h3 
+{
+    font-family: 'Montserrat';   
+}
+
+.headersSec hr,.discriptions hr
+{
+    border-top: 2px solid #F3164D;
+    width: 15%;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.promocode
+{
+margin-left: 60%;
+font-family: 'Montserrat';   
+font-size: 12px;
+color: #F3164D;
+font-weight: 700;
+}
+
+.priceCut
+{
+    text-decoration: line-through;  
+    font-family: 'Montserrat';  
+    margin: 10px 5px; 
+    font-size: 14px;
+}
+.buytextdata
+{
+    font-family: 'Montserrat';   
+    font-size: 18px;
+    color: #F3164D;
+    font-weight: 700;
+    margin: 15px 5px;
+    
+}
+.cardData
+{
+margin-top: 10px;
+
+
+
+}
+.cardData span
+{
+    font-family: 'Montserrat'; 
+    font-weight: 500;
+    color: #BBC5D5;
+    font-size: 12px;
+    margin: 8px 10px;
+}
+
+
+.discriptions
+{
+    padding: 30px 20px;
+    
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);
+-webkit-box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);
+-moz-box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);
+} 
+
+.discriptions h3 
+{
+    font-family: 'Montserrat';    
+}
+.discriptions hr 
+{
+    border-top: 2px solid #F3164D;
+    width: 15%;
+    margin-top: 10px;
+    display: inline-block; 
+}
+
+.discriptions p 
+{
+    font-family: 'Montserrat';    
+}
+
+
+.cardItems2
+{
+    padding: 30px 20px;
+    
+    
+    border-radius: 20px;
+    box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);
+-webkit-box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);
+-moz-box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);  
+}
+
+
+.textSedpr
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.textSedpr  h2 
+{
+    font-family: 'Montserrat'; 
+    color: #F3164D;
+}
+
+.textSedpr span
+{
+ font-weight: 700;
+ margin: 30px auto;
+
+}
+
+.textSedpr hr,.relatd hr 
+{
+    border-top: 2px solid #F3164D;
+    width: 15%;
+    margin-top: 15px;
+    text-align: center;
+    margin:10px auto;
+     
+}
+
+.buttonSecprot
+{
+    margin-top: 10px;
+}
+
+.textSedpr button
+{
+    font-family: 'Montserrat'; 
+    background: #e4e4e4;
+    padding:5px 20px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer; 
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.discriptions2 ,.discriptions4
+{
+    padding: 30px 20px;
+    width: 100%;
+    padding:2vw 10vw;
+    display: grid;
+    
+    grid-template-columns: 5fr 8fr;
+    /* grid-template-rows: minmax(20rem, 3rem); */
+    grid-gap:2rem;
+
+    
+    
+}
+.discriptions2 h2,.discriptions4 h2 
+{
+    margin: auto;  
+    text-align: center;
+}
+
+.discriptions2 hr,.discriptions4 hr,.relatd2 hr
+{
+    border-top: 2px solid #F3164D;
+    width: 110px;
+    margin-top: 15px;
+    text-align: center;
+    margin:10px auto;
+}
+.sec1,.sec2
+{
+    border-radius: 20px;
+    box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);
+-webkit-box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);
+-moz-box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);  
+padding: 20px;
+}
+
+.discriptions2 ul,.discriptions2 ol,.discriptions4 ol
+{
+    margin-left: 30px;
+    font-weight: 500
+    ;
+    margin-top: 10px
+    ;
+}
+
+.discriptions2 ul li,.discriptions2 ol li,.discriptions4 ol li
+{
+    margin: 10px 0px;
+}
+
+.discriptions2 p 
+{
+
+}
+
+
+.sec1 h2
+{
+ margin: auto;
+}
+
+
+
+
+.discriptionsdwdw
+{
+    padding: 30px 20px;
+    width: 100%;
+    padding:2vw 10vw;
+    display: grid;
+    
+    grid-template-columns: 8fr 5fr;
+    /* grid-template-rows: minmax(20rem, 3rem); */
+    grid-gap:2rem; 
+}
+
+.videotext
+{
+    border-radius: 20px;
+    box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);
+-webkit-box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);
+-moz-box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);  
+padding: 20px;  
+}
+
+.videotext h2 
+{
+    text-align: center;
+}
+.videotext hr 
+{
+    border-top: 2px solid #F3164D;
+    width: 110px;
+    margin-top: 15px;
+    text-align: center;
+    margin:10px auto;
+}
+
+
+.discriptions4 p
+{
+    line-height: 28px;
+}
+
+
+
+.revies
+{
+    margin-top: 30px;
+    padding: 30px 20px;
+    width: 100%;
+    padding:2vw 10vw;
+}
+.revies h4 
+{
+    display: inline;
+
+}
+.revb button
+{
+
+    padding: 5px 8px;
+    display: inline;
+    border: 2px solid #F3164D;
+    color: #F3164D;
+    font-weight: 700;
+}
+
+
+.reviewsitems
+{
+
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 0.5fr 10fr;
+    /* grid-template-rows: minmax(20rem, 3rem); */
+    grid-gap:2rem 1rem;    
+}
+
+.reviewsitems .img
+{
+    height: 50px;
+    width: 50px;
+    background: rgb(95, 95, 95);
+    border-radius: 50%;
+}
+
+.revTime
+{
+    margin-left: 20px;
+    color: rgb(150, 150, 150);
+    font-size: 12px;
+}
+
+.reviewsitems p 
+{
+    margin-top: 10px;
+}
+
+
+.viewall
+{
+
+    width: 100%;
+    padding: 50px;
+    outline: none;
+    margin-top: 30px;
+    padding: 20px 8px;
+    display: inline;
+    border: 3px solid #F3164D;
+    color: #F3164D;
+    background: none;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
+
+.relatd,.relatd2
+{
+    padding:2vw 10vw;  
+    
+}
+
+.relatd hr,.relatd2 hr 
+{
+    margin:10px 0px ;
+}
+
+
+.related
+{
+    text-align: center;
+}
+
+.related img 
+{
+
+    width: 30.2%;
+    margin: 0px 15px;
+}
+
+
+.relatedfhgdfhsdf
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem,16rem));
+   
+    grid-gap:0rem 1rem;
+   
+}
+
+
+
+.relatedfhgdfhsdf img
+{
+   width: 100%; 
+   border-radius: 20px;
+   height: 400px;
+}
+
+.mentorimge
+{
+    border-radius: 20px;
+    
+    box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);
+    -webkit-box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);
+    -moz-box-shadow: 2px -1px 35px -7px rgba(202,202,202,0.66);  
+   
+}
+
+
+.textSedpr
+{
+padding: 20px;
+}
+
+
+.textSedpr h2 
+{
+    font-size: 18px;
+}
+
+.textSedpr span
+{
+    font-size: 12px;
+
+}
+.textSedpr  hr 
+{
+    margin: auto;
+    margin-top: 10px;
+}
+.textSedpr p 
+{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.textSedpr button
+{
+    font-size: 7px;
+    padding: 5px 8px;
+}
+
+
+.footoer
+{
+    margin-top:10%;
+    background: black;
+    padding: 2vw 10vw;
+}
+.left h2 
+{
+    color: white;
+}
+.left h2 b
+{
+  color: #F3164D;  
+}
+
+.copy
+{
+    margin-top: 20px;
+}
+
+.copy
+{
+    color: rgb(139, 139, 139);
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.rightSide
+{
+    position: absolute;
+    right: 10vw;
+    
+  
+}
+
+.rightSide span
+{
+    color: rgb(139, 139, 139);
+    display: inline;
+    padding: 0px 5px;
+}
